@@ -1,4 +1,79 @@
 body{
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
+    margin: 0px;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    
+    padding: 1% 0;
+    height: 30px;
+    width: 100%;
+}
+
+.header__nav{
+    color: hsl(233, 8%, 62%);
+    font-size: 0.7em;
+
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+
+}
+
+.header__nav__div{
+    padding: 5% 0px;
+    border-bottom: 2px;
+    border-bottom-style:solid;
+    border-bottom-color:hsla(136, 65%, 51%, 0) ;
+}
+
+.header__nav__div:hover{
+    padding: 5% 0px;
+    border-bottom: 2px;
+    border-bottom-style:solid ;
+    border-bottom-color:hsl(136, 65%, 51%) ;
+}
+
+.header__nav__div__a{
+    text-decoration: none;
+    padding: 50% 0px;
+}
+
+.header__nav__div__a:link {
+    color: hsl(233, 8%, 62%);
+}
+
+.header__nav__div__a:visited{
+    color: hsl(233, 8%, 62%);
+}
+
+
+.header__nav__div__a:hover{
+    color: hsl(233, 26%, 24%);
+}
+
+.header__nav__div__a:visited:hover{
+    color: hsl(233, 26%, 24%);
+
+}
+
+.request-invite{
+    color:white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background:linear-gradient(to right, hsl(136, 65%, 51%),hsl(194, 65%, 51%));
+    width: 15%;
+    padding: 1.2% 1%;
+    border-radius: 25px;
+}
+
+
