@@ -90,7 +90,7 @@ body{
     background:linear-gradient(to right, hsl(136, 65%, 51%),hsl(194, 65%, 51%));
 
     width: 7%;
-    padding: 1% 1%;
+    padding: 10px 10px;
     border-radius: 25px;
 }
 
