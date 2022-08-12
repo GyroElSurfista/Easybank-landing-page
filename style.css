@@ -265,3 +265,106 @@ body{
     font-weight: 300; 
 
 }
+
+.footer{
+    color:hsl(233, 8%, 62%) ;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background: hsl(233, 26%, 24%);
+    height: 150px;
+    padding: 2% 0;
+}
+
+
+.footer__social-nav-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    flex-basis: auto;
+    flex-shrink:0;
+    height: 100%;
+}
+
+.footer__social-nav-div__img{
+    filter: brightness(0) saturate(100%);
+    filter:invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg) brightness(103%) contrast(106%);
+}
+
+.footer__social-nav-div__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.footer__social-nav-div__icons__icon:hover{
+    filter: brightness(0) saturate(100%);
+    filter: invert(61%) sepia(81%) saturate(445%) hue-rotate(83deg) brightness(96%) contrast(85%);
+}
+
+.footer__menu-nav-div{
+    width: 40%;
+    height: 90%;
+    flex-basis: auto;
+    flex-shrink:0;
+    
+}
+
+.footer__menu-nav-div__options{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30%;
+    padding-left: 10%;
+}
+
+.footer__menu-nav-div__options__a{
+    text-decoration: none;    
+}
+
+.footer__menu-nav-div__options__a:link{
+    color:hsl(233, 8%, 62%) ;   
+}
+
+.footer__menu-nav-div__options__a:visited{
+    color:hsl(233, 8%, 62%) ;   
+}
+
+.footer__menu-nav-div__options__a:hover{
+    color:hsl(136, 65%, 51%) ;   
+}
+
+.footer__menu-nav-div__options__a:visited:hover{
+    color:hsl(136, 65%, 51%) ;   
+}
+
+.footer__copy-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: auto;
+    flex-shrink:0;
+}
+
+.footer__copy-div__request-invite{
+    color:white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+    background:linear-gradient(to right, hsl(136, 65%, 51%),hsl(194, 65%, 51%));
+
+    width: 50%;
+    padding: 13px 10px;
+    border-radius: 25px;
+}
+
+.footer__copy-div__request-invite:hover{
+    filter: brightness(110%);
+}
