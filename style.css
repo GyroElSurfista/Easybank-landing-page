@@ -222,7 +222,7 @@ body{
 
 .latest-sec__art-div{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 23% 23% 23% 23%;
     justify-content: space-between;
 
     width: 78%;
@@ -236,13 +236,14 @@ body{
 
 }
 
-.latest-sec__art-div__div__img{
-    
+.latest-sec__art-div__img-div{
+    height: 250px;
     width: 100%;   
 }
 
-.latest-sec__art-div__div__img--reduced{
-    height: 190px;
+.latest-sec__art-div__img-div__img{
+    height: 100%;
+    width: 100%;
 }
 
 .latest-sec__art-div__div__text{
@@ -253,6 +254,27 @@ body{
     color: hsl(233, 8%, 62%);
     font-weight: 300; 
 
+}
+
+.latest-sec-art-div__div__text__a{
+    color: hsl(233, 26%, 24%);
+    text-decoration: none;
+}
+
+.latest-sec-art-div__div__text__a:link{
+    color: hsl(233, 26%, 24%);
+}
+
+.latest-sec-art-div__div__text__a:visited{
+    color: hsl(233, 26%, 24%);
+}
+
+.latest-sec-art-div__div__text__a:hover{
+    color: hsl(136, 65%, 51%) ;
+}
+
+.latest-sec-art-div__div__text__a:visited:hover{
+    color: hsl(136, 65%, 51%) ;
 }
 
 .latest-sec__art-div__div__text__h4{
