@@ -204,3 +204,64 @@ body{
     color: hsl(233, 8%, 62%);
     font-weight: 300;        
 }
+
+.latest-sec{
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 98%);
+}
+
+.latest-sec__text{
+    margin: 5% 0 0 11%;    
+}
+
+.latest-sec__text__h2{
+    font-weight: 300;    
+    font-size: 2em;  
+}
+
+.latest-sec__art-div{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+
+    width: 78%;
+    margin: 0 11% 5% 11%; 
+}
+
+.latest-sec__art-div__div{
+    border-radius: 10px; 
+    background: white;
+    overflow: hidden;
+
+}
+
+.latest-sec__art-div__div__img{
+    
+    width: 100%;   
+}
+
+.latest-sec__art-div__div__img--reduced{
+    height: 190px;
+}
+
+.latest-sec__art-div__div__text{
+    padding: 0 10% 10% 10%;
+}
+
+.latest-sec__art-div__div__text__h5{
+    color: hsl(233, 8%, 62%);
+    font-weight: 300; 
+
+}
+
+.latest-sec__art-div__div__text__h4{
+    font-weight: 300; 
+
+}
+
+.latest-sec__art-div__div__text__p{
+    color: hsl(233, 8%, 62%);
+    font-weight: 300; 
+
+}
