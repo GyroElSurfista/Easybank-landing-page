@@ -136,10 +136,16 @@ body{
 
     background:linear-gradient(to right, hsl(136, 65%, 51%),hsl(194, 65%, 51%));
 
-    width: 15%;
+    
+
+    width: 100px;
     padding: 13px 10px;
     border-radius: 25px;
 
+}
+
+.next-gen-sec__request-invite:hover{
+    filter: brightness(110%);
 }
 
 .next-gen-sec__img-div{
